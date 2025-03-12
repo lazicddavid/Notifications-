@@ -1,5 +1,39 @@
 body {
-  background-color: e5effa;
-  margin: 0 auto;
+  background-color: #e5effa;
   box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 40px auto;
+  width: 700px;
+  height: 1000px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+h3 span {
+  color: white;
+  background-color: purple;
+  font-family: sans-serif;
+  border-radius: 5px;
+  height: auto;
+  width: 5px;
+  padding: 10px;
+}
+
+p {
+  color: darkblue;
+  cursor: pointer;
 }
