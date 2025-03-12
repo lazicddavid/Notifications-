@@ -1,6 +1,7 @@
 body {
   background-color: #e5effa;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .container {
@@ -9,7 +10,6 @@ body {
   background-color: white;
   margin: 40px auto;
   max-width: 700px;
-  height: 1000px;
 }
 
 header {
@@ -20,27 +20,48 @@ header {
 
 h3 {
   font-size: x-large;
-  font-family: sans-serif;
 }
 
 h3 span {
   color: white;
   background-color: purple;
-  font-family: sans-serif;
   border-radius: 5px;
-  height: auto;
-  width: 5px;
   padding: 10px;
 }
 
-p {
+header p {
   color: darkblue;
   cursor: pointer;
 }
 
-.unread-msg {
+.notifications-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
-  height: ;
+  gap: 10px; /* Dodaje razmak između notifikacija */
+}
+
+.unread-msg {
+  background-color: #e5effa;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Razmak između slike i teksta */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.unread-msg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.msg-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.msg-content span {
+  font-size: 12px;
+  color: gray;
 }
