@@ -20,15 +20,20 @@ header {
   align-items: center;
 }
 
-h3 {
-  font-size: x-large;
+.number-notification {
+  background-color: purple;
+
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
 }
 
 h3 span {
+  font-family: sans-serif;
   color: white;
   background-color: purple;
   border-radius: 5px;
-  padding: 10px;
+  padding: 4px;
 }
 
 header p {
@@ -71,10 +76,11 @@ header p {
   color: gray;
 }
 
-.private-message {
+.info-message {
   padding: 15px;
   border-radius: 5px;
   border: 1px solid #d6e0eb;
   font-size: 15px;
   line-height: 1.4;
+  margin-left: 60px;
 }
